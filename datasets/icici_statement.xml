@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.08">
+  <BkToCstmrStmt>
+    <Stmt>
+      <Acct>
+        <Id>
+          <IBAN>INICICI0099</IBAN>
+        </Id>
+      </Acct>
+      <Bal>
+        <Tp>
+          <CdOrPrtry>
+            <Cd>CLBD</Cd>
+          </CdOrPrtry>
+        </Tp>
+        <Dt>
+          <Dt>2026-07-01</Dt>
+        </Dt>
+      </Bal>
+      <Ntry>
+        <Amt Ccy="INR">6000.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <BookgDt>
+          <DtTm>2026-07-01T12:00:00Z</DtTm>
+        </BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>TXNICICI888</EndToEndId>
+            </Refs>
+            <RltdPties>
+              <Dbtr>
+                <Nm>Rahul Dev</Nm>
+              </Dbtr>
+              <DbtrAcct>
+                <Id>
+                  <IBAN>IN88887777</IBAN>
+                </Id>
+              </DbtrAcct>
+            </RltdPties>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

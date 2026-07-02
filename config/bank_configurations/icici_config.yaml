@@ -1,0 +1,21 @@
+bank_code: "ICICI"
+bank_name: "ICICI Bank Limited"
+supported_formats: ["CSV", "CAMT053"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+0"
+reconciliation_window_days: 5
+column_mappings:
+  txn_id: "ICICI Transaction ID"  # column 7
+  txn_date: "Booking Date"
+  amount: "Amount"
+  currency: "Transaction Currency"
+  direction: "DR/CR Indicator"
+  counterparty_name: "Counterparty Name"
+  counterparty_account: "Counterparty IBAN"
+  bank_ref: "Host Reference Number"
+  narration: "Remarks"
+  settlement_date: "Value Date"
+format_deviations:
+  camt053:
+    namespace: "urn:iso:std:iso:20022:tech:xsd:camt.053.001.08"
+    balance_type: "CLBD"  # Closing Booked

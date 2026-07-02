@@ -1,0 +1,6 @@
+Transaction Reference,Value Date,Transaction Amount,Currency,Transaction Type,Beneficiary Name,Beneficiary Account Number,UTR Number,Description,Settlement Date
+TXNHDFC001,2026-07-01,15000.00,INR,Credit,Sharma Enterprises,11223344,UTRHDFC001,Customer payment,2026-07-01
+TXNHDFC002,2026-07-01,25000.50,INR,Credit,Verma Corp,55667788,UTRHDFC002,Invoice settlement,2026-07-01
+TXNHDFC003,2026-07-01,12000.00,INR,Debit,Salaries,99990000,UTRHDFC003,Salaries payroll,2026-07-01
+TXNHDFC004,2026-07-01,50.00,INR,Debit,HDFC Bank,11223344,UTRHDFC004,Service Charge,2026-07-01
+TXNHDFC005,2026-07-01,4500.00,INR,Credit,Rohan Gupta,44332211,UTRHDFC005,UPI transfer,2026-07-01

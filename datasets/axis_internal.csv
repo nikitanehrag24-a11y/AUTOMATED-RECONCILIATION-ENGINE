@@ -1,0 +1,3 @@
+Axis Ref 1,Axis Ref 2,Date of Transaction,Debit/Credit Amount,Transaction Currency,D/C Type,Beneficiary,Beneficiary Account,Axis UTR,Narration String,Settlement Booking Date
+REF,001,2026-07-01,3500.00,INR,Debit,Aman Gupta,12345,REF001,Direct deposit,2026-07-01
+REF,002,2026-07-01,500.00,INR,Credit,Merchant,67890,REF002,POS purchase,2026-07-01

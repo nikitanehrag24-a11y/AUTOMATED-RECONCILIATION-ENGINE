@@ -1,0 +1,24 @@
+bank_code: "AXIS"
+bank_name: "Axis Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+column_mappings:
+  txn_id: ["Axis Ref 1", "Axis Ref 2"]  # Columns 4 and 5 (indices 3 and 4)
+  txn_date: "Date of Transaction"
+  amount: "Debit/Credit Amount"
+  currency: "Transaction Currency"
+  direction: "D/C Type"
+  counterparty_name: "Beneficiary"
+  counterparty_account: "Beneficiary Account"
+  bank_ref: "Axis UTR"
+  narration: "Narration String"
+  settlement_date: "Settlement Booking Date"
+format_deviations:
+  mt940:
+    decimal_separator: "."
+    date_format: "YYMMDD"
+    omit_funds_code: false
+    narration_line_range: "3-5"
+    account_subfield_pos: "line 3"

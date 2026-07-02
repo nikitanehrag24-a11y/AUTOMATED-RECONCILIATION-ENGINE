@@ -1,0 +1,24 @@
+bank_code: "HDFC"
+bank_name: "HDFC Bank Limited"
+supported_formats: ["CSV", "MT940"]
+timezone: "Asia/Kolkata"
+settlement_cycle: "T+1"
+reconciliation_window_days: 5
+column_mappings:
+  txn_id: "Transaction Reference"  # or column index 2 (column 3)
+  txn_date: "Value Date"
+  amount: "Transaction Amount"
+  currency: "Currency"
+  direction: "Transaction Type"    # Credit or Debit
+  counterparty_name: "Beneficiary Name"
+  counterparty_account: "Beneficiary Account Number"
+  bank_ref: "UTR Number"
+  narration: "Description"
+  settlement_date: "Settlement Date"
+format_deviations:
+  mt940:
+    decimal_separator: ","
+    date_format: "YYMMDD"
+    omit_funds_code: true
+    narration_line_range: "4-6"
+    account_subfield_pos: "line 2"
